@@ -1,0 +1,15 @@
+// @no-cookie-jar
+GET http://localhost:8080/demo
+Accept: application/json
+
+###
+
+GET http://localhost:8080/demo1
+Accept: application/json
+
+###
+
+GET http://localhost:8080/demo2
+Accept: application/json
+
+###

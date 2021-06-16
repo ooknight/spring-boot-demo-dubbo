@@ -1,0 +1,6 @@
+dubbo:
+    application:
+        name: service-b
+    registry:
+        address: dubbo://127.0.0.1:20880
+        register: false

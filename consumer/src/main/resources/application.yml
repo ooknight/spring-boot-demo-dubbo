@@ -1,0 +1,9 @@
+debug: false
+dubbo:
+    application:
+        id: consumer
+        name: consumer
+    registry:
+        # address: dubbo://localhost:20880
+        address: multicast://224.1.1.1:11111
+        register: false
